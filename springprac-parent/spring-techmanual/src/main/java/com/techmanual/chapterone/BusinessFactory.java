@@ -12,7 +12,7 @@ public class BusinessFactory {
         properties = new Properties();
         properties
                 .load(new FileInputStream(
-                        "D:\\work\\Pay_Git\\springPrac\\springPrac\\springprac-parent\\spring-techmanual\\src\\main\\resources\\chapterone_config.properties"));
+                        "D:\\work\\Pay_Git\\springPrac\\springPrac\\springprac-parent\\spring-techmanual\\src\\main\\resources\\techmanual-config\\chapterone_config.properties"));
 
         String businessString = properties.getProperty("business.class");
         String aDeviceString = properties.getProperty("writer.class");
