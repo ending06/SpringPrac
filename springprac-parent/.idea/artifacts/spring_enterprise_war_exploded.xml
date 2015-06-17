@@ -6,9 +6,6 @@
         <element id="directory" name="classes">
           <element id="module-output" name="spring-enterprise" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.google.guava:guava:15.0" />
-        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/spring-enterprise/target/MANIFEST.MF" />
