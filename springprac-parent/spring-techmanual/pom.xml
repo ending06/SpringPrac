@@ -92,5 +92,27 @@
     </dependencies>
     <build>
         <finalName>spring-techmanual</finalName>
+        <!--环境加载-->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
     </build>
+
+    <!--profiles文件-->
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <build>
+                <resources>
+                    <resource>
+                        <directory>${profiles.dir}/dev</directory>
+                    </resource>
+                </resources>
+            </build>
+        </profile>
+
+    </profiles>
 </project>
