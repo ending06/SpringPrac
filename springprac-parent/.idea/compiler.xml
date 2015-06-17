@@ -23,7 +23,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="springenterprise" />
+        <module name="spring-enterprise" />
+        <module name="spring-techmanual" />
+        <module name="springEnterprise" />
+        <module name="springtechmanual" />
       </profile>
     </annotationProcessing>
   </component>

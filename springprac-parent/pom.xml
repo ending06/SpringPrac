@@ -6,7 +6,8 @@
     <artifactId>springprac-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springenterprise</module>
+        <module>spring-enterprise</module>
+        <module>spring-techmanual</module>
     </modules>
     <packaging>pom</packaging>
 

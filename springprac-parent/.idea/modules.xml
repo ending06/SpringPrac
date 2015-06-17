@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springenterprise/springenterprise.iml" filepath="$PROJECT_DIR$/springenterprise/springenterprise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-enterprise/spring-enterprise.iml" filepath="$PROJECT_DIR$/spring-enterprise/spring-enterprise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-techmanual/spring-techmanual.iml" filepath="$PROJECT_DIR$/spring-techmanual/spring-techmanual.iml" />
       <module fileurl="file://$PROJECT_DIR$/springprac-parent.iml" filepath="$PROJECT_DIR$/springprac-parent.iml" />
     </modules>
   </component>

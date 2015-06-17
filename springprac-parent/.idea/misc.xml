@@ -40,7 +40,10 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-enterprise" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-techmanual" />
     <file type="web" url="file://$PROJECT_DIR$/springenterprise" />
+    <file type="web" url="file://$PROJECT_DIR$/springtechmanual" />
   </component>
   <component name="IdProvider" IDEtalkID="4D508C7BC81D88816A6C068691593315" />
   <component name="MavenProjectsManager">
@@ -48,6 +51,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springenterprise/pom.xml" />
+        <option value="$PROJECT_DIR$/springtechmanual/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
