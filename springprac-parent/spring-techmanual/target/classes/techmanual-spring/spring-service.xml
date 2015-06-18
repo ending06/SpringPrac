@@ -2,12 +2,24 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-     <!--=========================第二章===================start=============-->
+
+    <!--=========================2===================start=============-->
     <bean id="helloSpring" class="com.techmanual.chaptertwo.HelloSpring"/>
 
     <bean id="aWriter" class="com.techmanual.chapterone.AdeviceWriter"/>
     <bean id="business" class="com.techmanual.chapterone.Business">
-        <property  name="deviceWriter" ref="aWriter"/>
+        <property name="deviceWriter" ref="aWriter"/>
     </bean>
-    <!--=========================第二章===================end=============-->
+
+    <!--=========================3===================start=============-->
+    <bean id="music" class="com.techmanual.chapterthree.instantiation.MusicBoxFactory" factory-method="createMusicBox"/>
+
+    <bean id="inheritanceSomeBean" abstract="true">
+        <property name ="name" value="guest"/>
+        <property name="age" value="18"/>
+    </bean>
+    <bean id="someBean" class="com.techmanual.chapterthree.beaninheritance.SomeBean" parent="inheritanceSomeBean">
+        <property name="name" value="change"/>
+    </bean>
+
 </beans>
