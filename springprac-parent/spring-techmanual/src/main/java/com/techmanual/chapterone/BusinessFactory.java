@@ -1,11 +1,11 @@
 package com.techmanual.chapterone;
 
+import java.io.FileInputStream;
+import java.util.Properties;
+
 // --------------------- Change Logs----------------------
 // <p>@author ruirui.qu Initial Created at 2015/6/17<p>
 // -------------------------------------------------------
-
-import java.io.FileInputStream;
-import java.util.Properties;
 
 public class BusinessFactory {
     public BusinessFactory() throws Exception {
@@ -18,7 +18,7 @@ public class BusinessFactory {
         String aDeviceString = properties.getProperty("writer.class");
         business = (Business) Class.forName(businessString).newInstance();
         deviceWriter = (DeviceWriter) Class.forName(aDeviceString).newInstance();
-        business.saveToWrite(deviceWriter);
+        business.setDeviceWriter(deviceWriter);
     }
 
     public static BusinessFactory getInstance() throws Exception {

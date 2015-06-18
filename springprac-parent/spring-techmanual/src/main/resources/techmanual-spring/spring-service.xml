@@ -2,6 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-     <!--第二章-->
+     <!--=========================第二章===================start=============-->
     <bean id="helloSpring" class="com.techmanual.chaptertwo.HelloSpring"/>
+
+    <bean id="aWriter" class="com.techmanual.chapterone.AdeviceWriter"/>
+    <bean id="business" class="com.techmanual.chapterone.Business">
+        <property  name="deviceWriter" ref="aWriter"/>
+    </bean>
+    <!--=========================第二章===================end=============-->
 </beans>

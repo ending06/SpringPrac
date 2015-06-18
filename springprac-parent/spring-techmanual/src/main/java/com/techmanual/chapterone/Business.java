@@ -7,7 +7,7 @@ package com.techmanual.chapterone;
 public class Business {
     private DeviceWriter deviceWriter;
 
-    public void saveToWrite(DeviceWriter deviceWriter){
+    public void saveToWrite(){
         try{
             if(deviceWriter==null){
                 throw new Exception("类加载失败");
