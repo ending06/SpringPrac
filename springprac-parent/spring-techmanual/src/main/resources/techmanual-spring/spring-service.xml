@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
 
     <!--=========================2===================start=============-->
     <bean id="helloSpring" class="com.techmanual.chaptertwo.HelloSpring"/>
@@ -15,17 +16,65 @@
     <bean id="music" class="com.techmanual.chapterthree.instantiation.MusicBoxFactory" factory-method="createMusicBox"/>
 
     <bean id="inheritanceSomeBean" abstract="true">
-        <property name ="name" value="guest"/>
+        <property name="name" value="guest"/>
         <property name="age" value="18"/>
     </bean>
     <bean id="someBean" class="com.techmanual.chapterthree.beaninheritance.SomeBean" parent="inheritanceSomeBean">
         <property name="name" value="change"/>
     </bean>
     <bean id="helloBean" class="com.techmanual.chapterthree.type3Demo.constructor.HelloBean">
-        <constructor-arg index="0"><value>test1</value></constructor-arg>
-        <constructor-arg index="1"><value>printHelloWord</value></constructor-arg>
+        <constructor-arg index="0">
+            <value>test1</value>
+        </constructor-arg>
+        <constructor-arg index="1">
+            <value>printHelloWord</value>
+        </constructor-arg>
     </bean>
     <bean id="helloAutoWare" class="com.techmanual.chapterthree.type3Demo.constructor.HelloAutoWare" autowire="byType">
         <property name="printWord" value="helloAutoWare"/>
     </bean>
+
+    <!--collection-->
+    <bean id="someObject1" class="com.techmanual.chapterthree.collection.SomeObject">
+        <property name="age" value="10"/>
+        <property name="name" value="collectionOne"/>
+    </bean>
+
+    <bean id="someObject2" class="com.techmanual.chapterthree.collection.SomeObject">
+        <property name="age" value="11"/>
+        <property name="name" value="collectionTwo"/>
+    </bean>
+
+    <bean id="collectionDemo" class="com.techmanual.chapterthree.collection.CollectionDemo">
+        <property name="stringList">
+            <list>
+                <value>aa</value>
+                <value>bb</value>
+            </list>
+        </property>
+        <property name="objectList">
+            <list>
+                <ref bean="someObject1"/>
+                <ref bean="someObject2"/>
+            </list>
+        </property>
+        <property name="integerList">
+            <list>
+                <value>11</value>
+                <value>12</value>
+            </list>
+        </property>
+        <property name="stringMap">
+            <map>
+                <entry key="map1">
+                    <value>map1_Value</value>
+                </entry>
+                <entry key="map2">
+                    <value>map2_value</value>
+                </entry>
+            </map>
+        </property>
+
+    </bean>
+
 </beans>
