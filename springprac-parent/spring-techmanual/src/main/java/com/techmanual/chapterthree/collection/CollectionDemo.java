@@ -19,6 +19,8 @@ public class CollectionDemo {
 
     private Map<String, String> stringMap;
 
+    private Map<School, SomeObject> objectMap;
+
     public List<String> getStringList() {
         return stringList;
     }
@@ -51,8 +53,16 @@ public class CollectionDemo {
         this.stringMap = stringMap;
     }
 
+    public Map<School, SomeObject> getObjectMap() {
+        return objectMap;
+    }
+
+    public void setObjectMap(Map<School, SomeObject> objectMap) {
+        this.objectMap = objectMap;
+    }
+
     @Override public String toString() {
         return Objects.toStringHelper(this).add("stringList", stringList).add("objectList", objectList)
-                .add("integerList", integerList).add("stringMap", stringMap).toString();
+                .add("integerList", integerList).add("stringMap", stringMap).add("objectMap", objectMap).toString();
     }
 }

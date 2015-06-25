@@ -44,6 +44,14 @@
         <property name="age" value="11"/>
         <property name="name" value="collectionTwo"/>
     </bean>
+    <bean id="school1" class="com.techmanual.chapterthree.collection.School">
+        <property name="schoolName" value="university1"/>
+        <property name="schoolCount" value="13"/>
+    </bean>
+    <bean id="school2" class="com.techmanual.chapterthree.collection.School">
+        <property name="schoolName" value="university2"/>
+        <property name="schoolCount" value="14"/>
+    </bean>
 
     <bean id="collectionDemo" class="com.techmanual.chapterthree.collection.CollectionDemo">
         <property name="stringList">
@@ -71,6 +79,16 @@
                 </entry>
                 <entry key="map2">
                     <value>map2_value</value>
+                </entry>
+            </map>
+        </property>
+        <property name="objectMap">
+            <map>
+                <entry key-ref="school1">
+                    <ref bean="someObject1"></ref>
+                </entry>
+                <entry key-ref="school2">
+                    <ref bean="someObject2"></ref>
                 </entry>
             </map>
         </property>
