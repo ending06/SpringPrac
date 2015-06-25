@@ -21,5 +21,11 @@
     <bean id="someBean" class="com.techmanual.chapterthree.beaninheritance.SomeBean" parent="inheritanceSomeBean">
         <property name="name" value="change"/>
     </bean>
-
+    <bean id="helloBean" class="com.techmanual.chapterthree.type3Demo.constructor.HelloBean">
+        <constructor-arg index="0"><value>test1</value></constructor-arg>
+        <constructor-arg index="1"><value>printHelloWord</value></constructor-arg>
+    </bean>
+    <bean id="helloAutoWare" class="com.techmanual.chapterthree.type3Demo.constructor.HelloAutoWare" autowire="byType">
+        <property name="printWord" value="helloAutoWare"/>
+    </bean>
 </beans>
