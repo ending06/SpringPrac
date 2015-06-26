@@ -99,5 +99,10 @@
     <bean id="messageManager" class="com.techmanual.chapterthree.lookupmethod.injection.MessageManager">
         <lookup-method name="createMessage" bean="sysMessage"/>
     </bean>
+    <!--bean postprocessor-->
+    <bean id="uppercaseModifier" class="com.techmanual.chapterthree.beanpostprocessor.UpperCaseModifier"/>
+    <bean id="postProcessorBean" class="com.techmanual.chapterthree.beanpostprocessor.PostProcessorBean">
+        <property name="name" value="test"/>
+    </bean>
 
 </beans>
