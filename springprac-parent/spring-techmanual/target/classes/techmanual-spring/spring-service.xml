@@ -94,5 +94,10 @@
         </property>
 
     </bean>
+    <!--loopup injection-->
+    <bean id="sysMessage" class="com.techmanual.chapterthree.lookupmethod.injection.Message" scope="prototype"/>
+    <bean id="messageManager" class="com.techmanual.chapterthree.lookupmethod.injection.MessageManager">
+        <lookup-method name="createMessage" bean="sysMessage"/>
+    </bean>
 
 </beans>
