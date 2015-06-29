@@ -104,5 +104,19 @@
     <bean id="postProcessorBean" class="com.techmanual.chapterthree.beanpostprocessor.PostProcessorBean">
         <property name="name" value="test"/>
     </bean>
+    <!--messageSourceDemo-->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <!--basename用来设置消息资源的前置档案文件名称，messages表示资源文件名称可以是message_*.properties-->
+        <property name="basenames">
+            <list>
+                <!-- 在web环境中一定要定位到classpath 否则默认到当前web应用下找  -->
+                <value>classpath:/techmanual-config/messages</value>
+                <value>classpath:/techmanual-config/messages</value>
+            </list>
+        </property>
+        <property name="useCodeAsDefaultMessage" value="false"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+        <property name="cacheSeconds" value="60"/>
+    </bean>
 
 </beans>
