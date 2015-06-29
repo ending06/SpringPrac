@@ -118,5 +118,7 @@
         <property name="defaultEncoding" value="UTF-8"/>
         <property name="cacheSeconds" value="60"/>
     </bean>
+    <!--publishEvent-->
+    <bean id="listener" class="com.techmanual.chapterthree.publishevent.CustomListener"/>
 
 </beans>
