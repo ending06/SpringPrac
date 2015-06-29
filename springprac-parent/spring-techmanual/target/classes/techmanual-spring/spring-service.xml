@@ -120,5 +120,27 @@
     </bean>
     <!--publishEvent-->
     <bean id="listener" class="com.techmanual.chapterthree.publishevent.CustomListener"/>
+    <!--staticProxy-->
+    <bean id="iHello" class="com.techmanual.chapterfour.base.HelloSpeaker"/>
+
+    <bean id="helloProxy" class="com.techmanual.chapterfour.staticproxy.HelloProxy">
+        <constructor-arg ref="iHello"/>
+    </bean>
+    <!--dynamic proxy-->
+    <bean id="logHandler" class="com.techmanual.chapterfour.dynamicproxy.LogHandler"/>
+
+    <!--beforeAdvice-->
+    <bean id="logBeforeAdvice" class="com.techmanual.chapterfour.beforeadvice.LogBeforeAdvice"/>
+    <bean id="helloSpeaker" class="com.techmanual.chapterfour.base.HelloSpeaker"/>
+    <bean id="helloBeforeAdvice" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces"
+                  value="com.techmanual.chapterfour.base.IHello"/>
+        <property name="target" ref="helloSpeaker"/>
+        <property name="interceptorNames">
+            <list>
+                <value>logBeforeAdvice</value>
+            </list>
+        </property>
+    </bean>
 
 </beans>
