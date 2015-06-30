@@ -139,4 +139,42 @@
             </list>
         </property>
     </bean>
+
+    <!--introduction_pointcut-->
+    <bean id="Isome" class="com.techmanual.chapterfour.pointcut.introduction.ISomeImpl"/>
+    <bean id="otherSomeIntroduction" class="com.techmanual.chapterfour.pointcut.introduction.OtherIntroduction"/>
+
+    <bean id="otherIntroductionAdvisor" class="org.springframework.aop.support.DefaultIntroductionAdvisor">
+        <constructor-arg ref="otherSomeIntroduction"/>
+        <constructor-arg value="com.techmanual.chapterfour.pointcut.introduction.OtherSome"/>
+    </bean>
+
+    <bean id="introductionFactoryBean" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.pointcut.introduction.ISome"/>
+        <property name="target" ref="Isome"/>
+        <property name="interceptorNames">
+            <list>
+                <value>otherIntroductionAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--delegatingIntroduction_point cut-->
+    <bean id="iSomeInterface" class="com.techmanual.chapterfour.pointcut.delegatingintroduction.ISomeInterfaceImpl"/>
+    <bean id="lockIntroduction" class="com.techmanual.chapterfour.pointcut.delegatingintroduction.LockIntroduction"/>
+
+    <bean id="lockAdvisor" class="org.springframework.aop.support.DefaultIntroductionAdvisor">
+        <constructor-arg ref="lockIntroduction"/>
+        <constructor-arg value="com.techmanual.chapterfour.pointcut.delegatingintroduction.ILockable"/>
+    </bean>
+
+    <bean id="delegatingIntroductionProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.pointcut.delegatingintroduction.ISomeInterface"/>
+        <property name="target" ref="iSomeInterface"/>
+        <property name="interceptorNames">
+            <list>
+                <value>lockAdvisor</value>
+            </list>
+        </property>
+    </bean>
 </beans>
