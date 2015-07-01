@@ -13,7 +13,7 @@ public class SpringDemo {
     public static void main(String args[]) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
                 "/techmanual-spring/spring-chapterfive-dao.xml");
-/*        // commonSql
+        // commonSql
         UserDao userDao = (UserDao) applicationContext.getBean("userDao");
         User user = new User("testNmae", 10);
         try {
@@ -59,7 +59,7 @@ public class SpringDemo {
             System.out.println("find result =" + queryUser);
         } catch (Exception e) {
             System.out.println("find result exception:" + e);
-        }*/
+        }
 
         //programTraction
         UserDao userDao3 = (UserDao) applicationContext.getBean("programTransactionUserDao");
