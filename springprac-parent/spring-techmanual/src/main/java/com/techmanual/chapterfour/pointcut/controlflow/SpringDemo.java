@@ -11,7 +11,7 @@ public class SpringDemo {
     public static void main(String args[]) {
         // bean 加载
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
-                "/techmanual-spring/spring-service-four.xml");
+                "/techmanual-spring/spring-chapterfour-service.xml");
         //编译失败？？？！！！
         ControlFlowPointCut controlFlowPointCut = (ControlFlowPointCut) applicationContext
                 .getBean("controlFlowPointCut");

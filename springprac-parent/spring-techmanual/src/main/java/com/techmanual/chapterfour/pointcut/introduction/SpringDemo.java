@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class SpringDemo {
     public static void main(String args[]) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
-                "/techmanual-spring/spring-service-four.xml");
+                "/techmanual-spring/spring-chapterfour-service.xml");
 
         // 原有职能
         ISome some = (ISome) applicationContext.getBean("Isome");

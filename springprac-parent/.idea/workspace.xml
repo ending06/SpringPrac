@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f09e72d-4b1a-4a72-a7cc-42bbef919a5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ILockable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/ISome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/ISomeImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ISomeInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ISomeInterfaceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/LockIntroduction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/OtherIntroduction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/OtherSome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/SpringDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/SpringDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-service-four.xml" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-service-four.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/techmanual-spring/spring-service-four.xml" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/techmanual-spring/spring-service-four.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/main/SpringDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/service/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/service/impl/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/entity/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/dao/impl/UserDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-service.xml" />
+      <change type="DELETED" beforePath="D:\work\Pay_Git\springPrac\springPrac\springprac-parent\spring-techmanual\target\classes\techmanual-spring\spring-service-four.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/afteradvice/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/afteradvice/SpringDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/aroundadvice/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/aroundadvice/SpringDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/beforeadvice/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/beforeadvice/SpringDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/pointcut/controlflow/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/pointcut/controlflow/SpringDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/pointcut/delegatingintroduction/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/pointcut/delegatingintroduction/SpringDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/pointcut/introduction/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/pointcut/introduction/SpringDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/pointcut/namematch/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/pointcut/namematch/SpringDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/throwAdvice/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfour/throwAdvice/SpringDemo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/SpringDemo.java" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/SpringDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/aroundadvice/SpringDemo.java" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/aroundadvice/SpringDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/SpringDemo.java" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/SpringDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/controlflow/SpringDemo.java" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/controlflow/SpringDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/SpringDemo.java" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/SpringDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/SpringDemo.java" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/SpringDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/namematch/SpringDemo.java" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/namematch/SpringDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/throwAdvice/SpringDemo.java" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/throwAdvice/SpringDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/pom.xml" afterPath="$PROJECT_DIR$/spring-techmanual/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/spring-techmanual.iml" afterPath="$PROJECT_DIR$/spring-techmanual/spring-techmanual.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/spring_techmanual_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_techmanual_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\work\Pay_Git\springPrac\springPrac\springprac-parent\spring-techmanual\src\main\resources\techmanual-spring\spring-service-four.xml" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfour-service.xml" />
     </list>
     <ignored path="springprac-parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,41 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OtherIntroduction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/OtherIntroduction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-service-four.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-service-four.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5272727" vertical-offset="3253" max-vertical-offset="3885">
-              <caret line="172" column="53" selection-start-line="172" selection-start-column="53" selection-end-line="172" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/SpringDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SpringDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/SpringDemo.java">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/main/SpringDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.569378" vertical-offset="231" max-vertical-offset="882">
-              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.6734234" vertical-offset="79" max-vertical-offset="819">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,44 +82,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISomeInterfaceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ISomeInterfaceImpl.java">
+      <file leaf-file-name="SQLError.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.9/mysql-connector-java-5.1.9.jar!/com/mysql/jdbc/SQLError.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.64" vertical-offset="13367" max-vertical-offset="13734">
+              <caret line="680" column="0" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.366667" vertical-offset="2509" max-vertical-offset="3696">
+              <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springprac-parent.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springprac-parent.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.566667" vertical-offset="2983" max-vertical-offset="3675">
+              <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="165" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2331">
+              <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
               <folding>
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <marker date="1435718484151" expanded="true" signature="1105:1148" placeholder="INSERT INTO ..." />
+                <marker date="1435718484151" expanded="true" signature="2134:2169" placeholder="SELECT * FRO..tbl_user..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LockIntroduction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/LockIntroduction.java">
+      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/q/java/jdk1.6.0_29/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="735">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="23487" max-vertical-offset="24633">
+              <caret line="1161" column="22" selection-start-line="1161" selection-start-column="22" selection-end-line="1161" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ILockable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ILockable.java">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISomeInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ISomeInterface.java">
+      <file leaf-file-name="PreparedStatement.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/q/java/jdk1.6.0_29/src.zip!/java/sql/PreparedStatement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="25011">
+              <caret line="69" column="14" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-chapterfive-dao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.3" vertical-offset="0" max-vertical-offset="441">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -144,13 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterthree/publishevent/CustomListener.java" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterthree/publishevent/SomeEvent.java" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterthree/publishevent/SpringDemo.java" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/staticproxy/IHello.java" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/staticproxy/HelloSpeaker.java" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/staticproxy/SpringDemo.java" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/dynamicproxy/IHello.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/dynamicproxy/HelloSpeaker.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/dynamicproxy/SpringDemo.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/base/LogInfo.java" />
@@ -160,8 +193,6 @@
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/beforeadvice/LogBeforeAdvice.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/four/beforeadvice/SpringDemo.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-techmanual/pom.xml" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/LogBeforeAdvice2.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/LogBeforeAdvice3.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/SpringDemo.java" />
@@ -195,6 +226,15 @@
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-service-four.xml" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/LockIntroduction.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/SpringDemo.java" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/datasource/User.java" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-service.xml" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/entity/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-techmanual/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-dao.xml" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/main/SpringDemo.java" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/dao/impl/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -426,6 +466,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="techmanual-config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-techmanual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -456,7 +526,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="introduction" />
+              <option name="myItemId" value="afteradvice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,7 +556,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="delegatingintroduction" />
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,7 +586,127 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controlflow" />
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-techmanual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-techmanual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-techmanual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springprac-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-techmanual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -536,7 +726,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Pay_IdeaProjects/DEV_20150505_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Pay_IdeaProjects" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.26666668" />
@@ -566,29 +756,7 @@
       <recent name="com.techmanual.chapterfour.throwAdvice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpringDemo (6)">
-    <configuration default="false" name="SpringDemo (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.techmanual.chapterfour.pointcut.namematch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.techmanual.chapterfour.pointcut.namematch.SpringDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spring-techmanual" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SpringDemo (3)">
     <configuration default="false" name="SpringDemo (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -663,6 +831,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.techmanual.chapterfour.pointcut.delegatingintroduction.SpringDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-techmanual" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.techmanual.chapterfive.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.techmanual.chapterfive.main.SpringDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -944,25 +1134,25 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.SpringDemo (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SpringDemo (4)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SpringDemo (5)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SpringDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SpringDemo (2)" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SpringDemo (6)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SpringDemo (5)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SpringDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SpringDemo (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SpringDemo (6)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SpringDemo (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SpringDemo (6)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SpringDemo (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SpringDemo (5)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SpringDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SpringDemo (4)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SpringDemo (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SpringDemo (6)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SpringDemo (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SpringDemo (5)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SpringDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\ruirui.qu.QUNARSERVERS\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -978,12 +1168,12 @@
       <workItem from="1434591054641" duration="12159000" />
       <workItem from="1435225068336" duration="67000" />
       <workItem from="1435225542916" duration="47550000" />
-      <workItem from="1435628280693" duration="5855000" />
+      <workItem from="1435628280693" duration="13467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79680000" />
+    <option name="totallyTimeSpent" value="87292000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1006,7 +1196,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1021,16 +1211,16 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5424275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4113856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2878625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29108486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48764768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1477516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10385439" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1066,132 +1256,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterthree/publishevent/CustomListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterthree/messagesource/SpringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterthree/publishevent/SpringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5065789" vertical-offset="0" max-vertical-offset="462">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chaptertwo/HelloSpring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chaptertwo/SpringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/profiles/dev/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3" vertical-offset="0" max-vertical-offset="1176">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/q/java/jdk1.6.0_29/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="11193">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/dynamicproxy/LogHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/dynamicproxy/SpringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="630">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/LogInfoBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35948646" vertical-offset="0" max-vertical-offset="701">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.9" vertical-offset="2373" max-vertical-offset="3171">
-          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41217393" vertical-offset="2955" max-vertical-offset="3549">
-          <caret line="152" column="36" selection-start-line="149" selection-start-column="0" selection-end-line="159" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.8.1/aspectjweaver-1.8.1.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="819">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41217393" vertical-offset="2409" max-vertical-offset="3591">
-          <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/LogBeforeAdvice2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45123968" vertical-offset="0" max-vertical-offset="605">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/LogBeforeAdvice3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5206612" vertical-offset="0" max-vertical-offset="605">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/SpringDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1911555" vertical-offset="139" max-vertical-offset="840">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,20 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/SpringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56918687" vertical-offset="0" max-vertical-offset="701">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/LogAfterAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15261628" vertical-offset="0" max-vertical-offset="688">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1269,6 +1326,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
           <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,6 +1344,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
           <caret line="15" column="62" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,16 +1439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/controlflow/ControlFlowPointCut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29829547" vertical-offset="0" max-vertical-offset="714">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/ISomeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17897727" vertical-offset="0" max-vertical-offset="704">
@@ -1400,7 +1449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ILockable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+        <state vertical-scroll-proportion="0.3034682" vertical-offset="0" max-vertical-offset="692">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -1414,28 +1463,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-service-four.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5272727" vertical-offset="3253" max-vertical-offset="3885">
-          <caret line="172" column="53" selection-start-line="172" selection-start-column="53" selection-end-line="172" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ISomeInterfaceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+        <state vertical-scroll-proportion="0.39450866" vertical-offset="0" max-vertical-offset="692">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="false" />
+            <element signature="e#413#414#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/ISomeInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+        <state vertical-scroll-proportion="0.24277456" vertical-offset="0" max-vertical-offset="692">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
@@ -1443,7 +1484,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/LockIntroduction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="735">
+        <state vertical-scroll-proportion="0.39306358" vertical-offset="43" max-vertical-offset="735">
           <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding />
         </state>
@@ -1459,8 +1500,179 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/delegatingintroduction/SpringDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.569378" vertical-offset="231" max-vertical-offset="882">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.48410404" vertical-offset="190" max-vertical-offset="882">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/controlflow/ControlFlowPointCut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39450866" vertical-offset="0" max-vertical-offset="692">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/LogAfterAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="692">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/service/impl/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/base/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3379571" vertical-offset="929" max-vertical-offset="3381">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/LogInfoBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20216607" vertical-offset="0" max-vertical-offset="831">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfour-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3885">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="167" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16513762" vertical-offset="0" max-vertical-offset="763">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/service/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="831">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/SpringDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1008">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springprac-parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3" vertical-offset="0" max-vertical-offset="441">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.566667" vertical-offset="2983" max-vertical-offset="3675">
+          <caret line="160" column="0" selection-start-line="160" selection-start-column="0" selection-end-line="165" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.366667" vertical-offset="2509" max-vertical-offset="3696">
+          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/q/java/jdk1.6.0_29/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="23487" max-vertical-offset="24633">
+          <caret line="1161" column="22" selection-start-line="1161" selection-start-column="22" selection-end-line="1161" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/q/java/jdk1.6.0_29/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="25011">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.9/mysql-connector-java-5.1.9.jar!/com/mysql/jdbc/SQLError.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.64" vertical-offset="13367" max-vertical-offset="13734">
+          <caret line="680" column="0" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2331">
+          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1435718484151" expanded="true" signature="1105:1148" placeholder="INSERT INTO ..." />
+            <marker date="1435718484151" expanded="true" signature="2134:2169" placeholder="SELECT * FRO..tbl_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfive/main/SpringDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6734234" vertical-offset="79" max-vertical-offset="819">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
