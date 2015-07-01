@@ -13,6 +13,7 @@ import java.sql.SQLException;
 
 // --------------------- Change Logs----------------------
 // <p>@author ruirui.qu Initial Created at 2015/6/30<p>
+// 普通的sql连接处理流程
 // -------------------------------------------------------
 
 public class UserDaoImpl extends LogInfoBase implements UserDao {
@@ -55,7 +56,7 @@ public class UserDaoImpl extends LogInfoBase implements UserDao {
             // 获取连接
             connection = dataSource.getConnection();
             preparedStatement = connection.prepareStatement("SELECT * FROM tbl_user WHERE id = ?");
-            preparedStatement.setInt(1,id.intValue());
+            preparedStatement.setInt(1, id.intValue());
             ResultSet resultSet = preparedStatement.executeQuery();
             if (resultSet.next()) {
                 Integer userId = new Integer(resultSet.getInt(1));

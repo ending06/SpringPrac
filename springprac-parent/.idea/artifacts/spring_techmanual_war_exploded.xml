@@ -29,6 +29,11 @@
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.1" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.9" />
+          <element id="library" level="project" name="Maven: com.qunar.spring.jdbc.support:spring_jdbc_support:1.0.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.6.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.6.6" />
+          <element id="library" level="project" name="Maven: postgresql:postgresql:9.2-1002.jdbc4" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
         </element>
       </element>
       <element id="directory" name="META-INF">

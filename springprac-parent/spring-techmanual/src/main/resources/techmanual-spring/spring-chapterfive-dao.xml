@@ -13,4 +13,7 @@
     <bean id="userDao" class="com.techmanual.chapterfive.dao.impl.UserDaoImpl">
         <property name="dataSource" ref="dataSource"/>
     </bean>
+    <bean id="jdbcTemplateUserDao" class="com.techmanual.chapterfive.dao.impl.UserDaoJdbcTemplateImpl">
+        <property name="jdbcTemplate" ref="dataSource"/>
+    </bean>
 </beans>

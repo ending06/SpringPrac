@@ -164,6 +164,12 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.9</version>
         </dependency>
+        <!--spring jdbctemplate-->
+        <dependency>
+            <groupId>com.qunar.spring.jdbc.support</groupId>
+            <artifactId>spring_jdbc_support</artifactId>
+            <version>1.0.5</version>
+        </dependency>
     </dependencies>
 </dependencyManagement>
 </project>

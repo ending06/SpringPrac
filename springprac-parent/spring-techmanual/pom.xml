@@ -140,6 +140,11 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+        <!--spring jdbctemplate-->
+        <dependency>
+            <groupId>com.qunar.spring.jdbc.support</groupId>
+            <artifactId>spring_jdbc_support</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
