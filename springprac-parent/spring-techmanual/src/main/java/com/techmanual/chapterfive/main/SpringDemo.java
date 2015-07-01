@@ -13,7 +13,7 @@ public class SpringDemo {
     public static void main(String args[]) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(
                 "/techmanual-spring/spring-chapterfive-dao.xml");
-        // commonSql
+/*        // commonSql
         UserDao userDao = (UserDao) applicationContext.getBean("userDao");
         User user = new User("testNmae", 10);
         try {
@@ -45,5 +45,29 @@ public class SpringDemo {
             System.out.println("find result exception:" + e);
         }
 
+        // jdbc rdbms
+        UserDao userDao2 = (UserDao) applicationContext.getBean("rdbmsObjectUserDao");
+        User user2 = new User("rdbmsUserInfo", 11);
+        try {
+            userDao2.insert(user2);
+        } catch (Exception e) {
+            System.out.println("insert result exception:" + e);
+        }
+
+        try {
+            User queryUser = userDao2.find(5);
+            System.out.println("find result =" + queryUser);
+        } catch (Exception e) {
+            System.out.println("find result exception:" + e);
+        }*/
+
+        //programTraction
+        UserDao userDao3 = (UserDao) applicationContext.getBean("programTransactionUserDao");
+        User user3 = new User("programTractionUserIndo", 12);
+        try {
+            userDao3.insert(user3);
+        } catch (Exception e) {
+            System.out.println("insert result exception:" + e);
+        }
     }
 }

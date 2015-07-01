@@ -16,4 +16,10 @@
     <bean id="jdbcTemplateUserDao" class="com.techmanual.chapterfive.dao.impl.UserDaoJdbcTemplateImpl">
         <property name="jdbcTemplate" ref="dataSource"/>
     </bean>
+    <bean id="rdbmsObjectUserDao" class="com.techmanual.chapterfive.dao.impl.UserDaoRdbmsObjectImpl">
+        <constructor-arg ref="dataSource"/>
+    </bean>
+    <bean id="programTransactionUserDao" class="com.techmanual.chapterfive.dao.impl.UserDaoProgramTransactionImpl">
+        <constructor-arg ref="dataSource"/>
+    </bean>
 </beans>
