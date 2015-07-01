@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-2.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--数据源配置-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/spring_techmanual_dev"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+    <bean id="userDao" class="com.techmanual.chapterfive.dao.impl.UserDaoImpl">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <bean id="jdbcTemplateUserDao" class="com.techmanual.chapterfive.dao.impl.UserDaoJdbcTemplateImpl">
+        <property name="jdbcTemplate" ref="dataSource"/>
+    </bean>
+    <bean id="rdbmsObjectUserDao" class="com.techmanual.chapterfive.dao.impl.UserDaoRdbmsObjectImpl">
+        <constructor-arg ref="dataSource"/>
+    </bean>
+    <bean id="programTransactionUserDao" class="com.techmanual.chapterfive.dao.impl.UserDaoProgramTransactionImpl">
+        <constructor-arg ref="dataSource"/>
+    </bean>
+</beans>

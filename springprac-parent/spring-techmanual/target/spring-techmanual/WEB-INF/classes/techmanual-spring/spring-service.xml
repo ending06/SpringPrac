@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+    <!--=========================2===================start=============-->
+    <bean id="helloSpring" class="com.techmanual.chaptertwo.HelloSpring"/>
+
+    <bean id="aWriter" class="com.techmanual.chapterone.AdeviceWriter"/>
+    <bean id="business" class="com.techmanual.chapterone.Business">
+        <property name="deviceWriter" ref="aWriter"/>
+    </bean>
+
+    <!--=========================3===================start=============-->
+    <bean id="music" class="com.techmanual.chapterthree.instantiation.MusicBoxFactory" factory-method="createMusicBox"/>
+
+    <bean id="inheritanceSomeBean" abstract="true">
+        <property name="name" value="guest"/>
+        <property name="age" value="18"/>
+    </bean>
+    <bean id="someBean" class="com.techmanual.chapterthree.beaninheritance.SomeBean" parent="inheritanceSomeBean">
+        <property name="name" value="change"/>
+    </bean>
+    <bean id="helloBean" class="com.techmanual.chapterthree.type3Demo.constructor.HelloBean">
+        <constructor-arg index="0">
+            <value>test1</value>
+        </constructor-arg>
+        <constructor-arg index="1">
+            <value>printHelloWord</value>
+        </constructor-arg>
+    </bean>
+    <bean id="helloAutoWare" class="com.techmanual.chapterthree.type3Demo.constructor.HelloAutoWare" autowire="byType">
+        <property name="printWord" value="helloAutoWare"/>
+    </bean>
+
+    <!--collection-->
+    <bean id="someObject1" class="com.techmanual.chapterthree.collection.SomeObject">
+        <property name="age" value="10"/>
+        <property name="name" value="collectionOne"/>
+    </bean>
+
+    <bean id="someObject2" class="com.techmanual.chapterthree.collection.SomeObject">
+        <property name="age" value="11"/>
+        <property name="name" value="collectionTwo"/>
+    </bean>
+    <bean id="school1" class="com.techmanual.chapterthree.collection.School">
+        <property name="schoolName" value="university1"/>
+        <property name="schoolCount" value="13"/>
+    </bean>
+    <bean id="school2" class="com.techmanual.chapterthree.collection.School">
+        <property name="schoolName" value="university2"/>
+        <property name="schoolCount" value="14"/>
+    </bean>
+
+    <bean id="collectionDemo" class="com.techmanual.chapterthree.collection.CollectionDemo">
+        <property name="stringList">
+            <list>
+                <value>aa</value>
+                <value>bb</value>
+            </list>
+        </property>
+        <property name="objectList">
+            <list>
+                <ref bean="someObject1"/>
+                <ref bean="someObject2"/>
+            </list>
+        </property>
+        <property name="integerList">
+            <list>
+                <value>11</value>
+                <value>12</value>
+            </list>
+        </property>
+        <property name="stringMap">
+            <map>
+                <entry key="map1">
+                    <value>map1_Value</value>
+                </entry>
+                <entry key="map2">
+                    <value>map2_value</value>
+                </entry>
+            </map>
+        </property>
+        <property name="objectMap">
+            <map>
+                <entry key-ref="school1">
+                    <ref bean="someObject1"></ref>
+                </entry>
+                <entry key-ref="school2">
+                    <ref bean="someObject2"></ref>
+                </entry>
+            </map>
+        </property>
+
+    </bean>
+    <!--loopup injection-->
+    <bean id="sysMessage" class="com.techmanual.chapterthree.lookupmethod.injection.Message" scope="prototype"/>
+    <bean id="messageManager" class="com.techmanual.chapterthree.lookupmethod.injection.MessageManager">
+        <lookup-method name="createMessage" bean="sysMessage"/>
+    </bean>
+    <!--bean postprocessor-->
+    <bean id="uppercaseModifier" class="com.techmanual.chapterthree.beanpostprocessor.UpperCaseModifier"/>
+    <bean id="postProcessorBean" class="com.techmanual.chapterthree.beanpostprocessor.PostProcessorBean">
+        <property name="name" value="test"/>
+    </bean>
+    <!--messageSourceDemo-->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <!--basename用来设置消息资源的前置档案文件名称，messages表示资源文件名称可以是message_*.properties-->
+        <property name="basenames">
+            <list>
+                <!-- 在web环境中一定要定位到classpath 否则默认到当前web应用下找  -->
+                <value>classpath:/techmanual-config/messages</value>
+                <value>classpath:/techmanual-config/messages</value>
+            </list>
+        </property>
+        <property name="useCodeAsDefaultMessage" value="false"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+        <property name="cacheSeconds" value="60"/>
+    </bean>
+    <!--publishEvent-->
+    <bean id="listener" class="com.techmanual.chapterthree.publishevent.CustomListener"/>
+    <!--staticProxy-->
+    <bean id="iHello" class="com.techmanual.chapterfour.base.HelloSpeaker"/>
+
+    <bean id="helloProxy" class="com.techmanual.chapterfour.staticproxy.HelloProxy">
+        <constructor-arg ref="iHello"/>
+    </bean>
+    <!--dynamic proxy-->
+    <bean id="logHandler" class="com.techmanual.chapterfour.dynamicproxy.LogHandler"/>
+
+    <!--beforeAdvice-->
+    <bean id="logBeforeAdvice" class="com.techmanual.chapterfour.beforeadvice.LogBeforeAdvice"/>
+    <bean id="helloSpeaker" class="com.techmanual.chapterfour.base.HelloSpeaker"/>
+    <bean id="helloBeforeAdvice" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces"
+                  value="com.techmanual.chapterfour.base.IHello"/>
+        <property name="target" ref="helloSpeaker"/>
+        <property name="interceptorNames">
+            <list>
+                <value>logBeforeAdvice</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>

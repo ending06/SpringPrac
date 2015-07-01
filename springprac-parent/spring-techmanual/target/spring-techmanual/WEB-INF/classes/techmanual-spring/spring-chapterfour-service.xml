@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-2.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--==============可以参考手册，注释掉相关部分配置，以便更好的查看输出值=======================================-->
+
+    <aop:aspectj-autoproxy/>
+
+    <!--dynamic proxy-->
+    <bean id="logHandler" class="com.techmanual.chapterfour.dynamicproxy.LogHandler"/>
+
+    <!--beforeAdvice-->
+    <bean id="logBeforeAdvice" class="com.techmanual.chapterfour.beforeadvice.LogBeforeAdvice"/>
+    <bean id="helloSpeaker" class="com.techmanual.chapterfour.base.HelloSpeaker"/>
+
+    <bean id="helloBeforeAdvice" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces"
+                  value="com.techmanual.chapterfour.base.IHello"/>
+        <property name="target" ref="helloSpeaker"/>
+        <property name="interceptorNames">
+            <list>
+                <value>logBeforeAdvice</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="logBeforeAdvice2" class="com.techmanual.chapterfour.beforeadvice.LogBeforeAdvice2"/>
+    <aop:config>
+        <aop:aspect id="logging" ref="logBeforeAdvice2">
+            <aop:before pointcut="execution(* com.techmanual.chapterfour.base.IHello.*(..))" method="before"/>
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="logBeforeAdvice3" class="com.techmanual.chapterfour.beforeadvice.LogBeforeAdvice3"/>
+
+    <!--afterAdvice-->
+    <bean id="logBeforeAdviceTest" class="com.techmanual.chapterfour.afteradvice.LogBeforeAdvice"/>
+    <bean id="logAfterAdvice" class="com.techmanual.chapterfour.afteradvice.LogAfterAdvice"/>
+    <bean id="helloSpeaker_logAfter" class="com.techmanual.chapterfour.base.HelloSpeaker"/>
+
+    <bean id="helloProxy_logAfter" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.base.IHello"/>
+        <property name="target" ref="helloSpeaker"/>
+        <property name="interceptorNames">
+            <list>
+                <value>logBeforeAdviceTest</value>
+                <value>logAfterAdvice</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="logAspect" class="com.techmanual.chapterfour.afteradvice.LogAspect"/>
+    <aop:config>
+        <aop:aspect id="loggingTest" ref="logAspect">
+            <aop:pointcut id="logHello"
+                          expression="execution(* com.techmanual.chapterfour.base.IHello.*(..))"/>
+
+            <aop:before pointcut-ref="logHello" method="before"/>
+
+            <aop:after-returning
+                    pointcut-ref="logHello"
+                    method="afterReturning"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!--throwAdvice-->
+    <bean id="someThrowAdvice" class="com.techmanual.chapterfour.throwAdvice.SomeThrowAdvice"/>
+    <bean id="helloSpeaker_throwAdvice" class="com.techmanual.chapterfour.throwAdvice.HelloSpeakerThrow"/>
+
+    <bean id="helloproxy_throwAdvice" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.throwAdvice.IHelloThrow"/>
+        <property name="target" ref="helloSpeaker_throwAdvice"/>
+        <property name="interceptorNames">
+            <list>
+                <value>someThrowAdvice</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--aroundAdvice-->
+    <bean id="aroundAdvice" class="com.techmanual.chapterfour.aroundadvice.AroundAdviceAspect"/>
+
+    <!--=====================================point cut========================================-->
+    <!--nameMatchPointCut-->
+    <bean id="nameMatch" class="com.techmanual.chapterfour.pointcut.namematch.NameMatchImpl"/>
+    <bean id="nameMatchAdvice" class="com.techmanual.chapterfour.pointcut.namematch.NameMatchLogBeforeAdvice"/>
+    <bean id="helloAdvisor" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+        <property name="mappedName" value="*AgeMatch"/>
+        <property name="advice" ref="nameMatchAdvice"/>
+    </bean>
+    <bean id="nameMatchProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.pointcut.namematch.NameMatch"/>
+        <property name="target" ref="nameMatch"/>
+        <property name="interceptorNames">
+            <list>
+                <value>helloAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--RegexMatch-->
+    <bean id="regExpAdvisor"
+          class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="pattern" value=".*Match"/>
+        <property name="advice" ref="nameMatchAdvice"/>
+    </bean>
+    <bean id="regexMatchProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.pointcut.namematch.NameMatch"/>
+        <property name="target" ref="nameMatch"/>
+        <property name="interceptorNames">
+            <list>
+                <value>regExpAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--control flow point cut-->
+    <bean id="controlFlowPointCut" class="com.techmanual.chapterfour.pointcut.controlflow.ControlFlowPointCut"/>
+
+    <bean id="helloControlFlow" class="org.springframework.aop.support.ControlFlowPointcut">
+        <constructor-arg value="com.techmanual.chapterfour.pointcut.controlflow.ControlFlowPointCut"/>
+    </bean>
+
+    <bean id="controlFlowAdvisor"
+          class="org.springframework.aop.support.DefaultPointcutAdvisor">
+        <property name="advice" ref="nameMatchAdvice"/>
+        <property name="pointcut" ref="helloControlFlow"/>
+    </bean>
+
+    <bean id="controlFlowPointCutProxy"
+          class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.pointcut.namematch.NameMatch"/>
+        <property name="target" ref="nameMatch"/>
+        <property name="interceptorNames">
+            <list>
+                <value>controlFlowAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--introduction_pointcut-->
+    <bean id="Isome" class="com.techmanual.chapterfour.pointcut.introduction.ISomeImpl"/>
+    <bean id="otherSomeIntroduction" class="com.techmanual.chapterfour.pointcut.introduction.OtherIntroduction"/>
+
+    <bean id="otherIntroductionAdvisor" class="org.springframework.aop.support.DefaultIntroductionAdvisor">
+        <constructor-arg ref="otherSomeIntroduction"/>
+        <constructor-arg value="com.techmanual.chapterfour.pointcut.introduction.OtherSome"/>
+    </bean>
+
+    <bean id="introductionFactoryBean" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.pointcut.introduction.ISome"/>
+        <property name="target" ref="Isome"/>
+        <property name="interceptorNames">
+            <list>
+                <value>otherIntroductionAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--delegatingIntroduction_point cut-->
+    <bean id="iSomeInterface" class="com.techmanual.chapterfour.pointcut.delegatingintroduction.ISomeInterfaceImpl"/>
+    <bean id="lockIntroduction" class="com.techmanual.chapterfour.pointcut.delegatingintroduction.LockIntroduction"/>
+
+    <bean id="lockAdvisor" class="org.springframework.aop.support.DefaultIntroductionAdvisor">
+        <constructor-arg ref="lockIntroduction"/>
+        <constructor-arg value="com.techmanual.chapterfour.pointcut.delegatingintroduction.ILockable"/>
+    </bean>
+
+    <bean id="delegatingIntroductionProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="proxyInterfaces" value="com.techmanual.chapterfour.pointcut.delegatingintroduction.ISomeInterface"/>
+        <property name="target" ref="iSomeInterface"/>
+        <property name="interceptorNames">
+            <list>
+                <value>lockAdvisor</value>
+            </list>
+        </property>
+    </bean>
+</beans>

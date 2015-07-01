@@ -145,6 +145,12 @@
             <groupId>com.qunar.spring.jdbc.support</groupId>
             <artifactId>spring_jdbc_support</artifactId>
         </dependency>
+        <!--====================spring mvc ===================================-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
