@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f09e72d-4b1a-4a72-a7cc-42bbef919a5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/HelloController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/webapp/PAGE/JSP/hello.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-mvc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterseven-service.xml" />
-      <change type="DELETED" beforePath="D:\work\Pay_Git\springPrac\springPrac\springprac-parent\spring-techmanual\target\classes\com\techmanual\chapterfive\service\Test.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\work\Pay_Git\springPrac\springPrac\springprac-parent\spring-techmanual\target\classes\com\techmanual\chapterfive\service\impl\Test.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfive/main/SpringDemo.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfive/main/SpringDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfive/dao/impl/UserDaoProgramTransactionImpl.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterfive/dao/impl/UserDaoProgramTransactionImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/pom.xml" afterPath="$PROJECT_DIR$/spring-techmanual/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/spring-techmanual.iml" afterPath="$PROJECT_DIR$/spring-techmanual/spring-techmanual.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/LoggingInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/TimeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterseven/controller/HelloController.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/classes/com/techmanual/chapterseven/controller/HelloController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/spring-techmanual/WEB-INF/classes/com/techmanual/chapterseven/controller/HelloController.class" afterPath="$PROJECT_DIR$/spring-techmanual/target/spring-techmanual/WEB-INF/classes/com/techmanual/chapterseven/controller/HelloController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/spring-techmanual/PAGE/JSP/hello.jsp" afterPath="$PROJECT_DIR$/spring-techmanual/target/spring-techmanual/PAGE/JSP/hello.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-mvc.xml" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/spring-techmanual/WEB-INF/servlet-mvc.xml" afterPath="$PROJECT_DIR$/spring-techmanual/target/spring-techmanual/WEB-INF/servlet-mvc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-techmanual/target/spring-techmanual/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/spring-techmanual/target/spring-techmanual/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="springprac-parent.iws" />
@@ -52,45 +48,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49578413" vertical-offset="21" max-vertical-offset="672">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="630">
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-chapterfive-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-service.xml">
+      <file leaf-file-name="LoggingInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/LoggingInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.290909" vertical-offset="0" max-vertical-offset="252">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="882">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloSpeaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/HelloSpeaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-chapterseven-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterseven-service.xml">
+      <file leaf-file-name="IHello.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/IHello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9090909" vertical-offset="0" max-vertical-offset="231">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="servlet-mvc.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LogInfoBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/LogInfoBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="servlet-mvc.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.1" vertical-offset="0" max-vertical-offset="399">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.40392157" vertical-offset="172" max-vertical-offset="861">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -99,38 +115,8 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.0" vertical-offset="0" max-vertical-offset="777">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hello.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/webapp/PAGE/JSP/hello.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3" vertical-offset="0" max-vertical-offset="315">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.275862" vertical-offset="3380" max-vertical-offset="3969">
-              <caret line="170" column="40" selection-start-line="170" selection-start-column="40" selection-end-line="170" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-techmanual/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.466666" vertical-offset="2782" max-vertical-offset="3927">
-              <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+            <state vertical-scroll-proportion="-36.266666" vertical-offset="4" max-vertical-offset="1323">
+              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -144,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/LogBeforeAdvice3.java" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/beforeadvice/SpringDemo.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/LogAfterAdvice.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/LogBeforeAdvice.java" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/afteradvice/SpringDemo.java" />
@@ -191,10 +175,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-techmanual/pom.xml" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-config.xml" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-mvc.xml" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/webapp/PAGE/JSP/hello.jsp" />
         <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/TimeServlet.java" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-mvc.xml" />
+        <option value="$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/LoggingInterceptor.java" />
       </list>
     </option>
   </component>
@@ -304,6 +290,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,104 +400,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PAGE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springprac-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springprac-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-techmanual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springprac-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springprac-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-techmanual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="techmanual-spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springprac-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springprac-parent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-techmanual" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="profiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -570,7 +459,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1009,7 +897,6 @@
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.36" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="spring-techmanual:war exploded">
           <settings>
@@ -1086,12 +973,12 @@
     </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.SpringDemo (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SpringDemo (5)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SpringDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SpringDemo (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SpringDemo (6)" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SpringDemo (3)" />
-      <item index="6" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SpringDemo (5)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SpringDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SpringDemo (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SpringDemo (6)" />
+      <item index="6" class="java.lang.String" itemvalue="Application.SpringDemo (3)" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -1123,11 +1010,12 @@
       <workItem from="1435225542916" duration="47550000" />
       <workItem from="1435628280693" duration="28642000" />
       <workItem from="1435752246027" duration="2426000" />
+      <workItem from="1436779025520" duration="3163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104893000" />
+    <option name="totallyTimeSpent" value="108056000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1151,7 +1039,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1164,7 +1052,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32760474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38453275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16541353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4113856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2878625" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1174,7 +1062,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35982814" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1879015" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17130621" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1303,7 +1191,7 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1312,34 +1200,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/namematch/SpringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/ISome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/OtherSome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/controlflow/SpringDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35795453" vertical-offset="0" max-vertical-offset="704">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/pointcut/introduction/ISomeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17897727" vertical-offset="0" max-vertical-offset="704">
@@ -1417,13 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/LogInfoBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20216607" vertical-offset="0" max-vertical-offset="831">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfour-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3885">
@@ -1478,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8462" max-vertical-offset="29190">
           <caret line="493" column="36" selection-start-line="493" selection-start-column="11" selection-end-line="493" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,9 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55950266" vertical-offset="0" max-vertical-offset="563">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1525,9 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="2352">
           <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1555,7 +1400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23521505" vertical-offset="2114" max-vertical-offset="12516">
           <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1563,7 +1407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23521505" vertical-offset="1484" max-vertical-offset="3234">
           <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1571,7 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23392613" vertical-offset="4680" max-vertical-offset="17619">
           <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1579,7 +1421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39919356" vertical-offset="8544" max-vertical-offset="32151">
           <caret line="505" column="13" selection-start-line="505" selection-start-column="13" selection-end-line="505" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1597,11 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36155915" vertical-offset="361" max-vertical-offset="1365">
           <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1435739475916" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1435739475916" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..tbl_user..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1619,8 +1455,6 @@
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1435752176148" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1435752176148" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -1639,13 +1473,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37300178" vertical-offset="0" max-vertical-offset="563">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.275862" vertical-offset="3380" max-vertical-offset="3969">
+        <state vertical-scroll-proportion="0.5403226" vertical-offset="3101" max-vertical-offset="3969">
           <caret line="170" column="40" selection-start-line="170" selection-start-column="40" selection-end-line="170" selection-end-column="40" />
           <folding />
         </state>
@@ -1653,7 +1486,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.466666" vertical-offset="2782" max-vertical-offset="3927">
+        <state vertical-scroll-proportion="0.32718894" vertical-offset="2782" max-vertical-offset="3927">
           <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
           <folding />
         </state>
@@ -1661,7 +1494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterfive-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.290909" vertical-offset="0" max-vertical-offset="252">
+        <state vertical-scroll-proportion="0.14736842" vertical-offset="0" max-vertical-offset="855">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
@@ -1669,7 +1502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/resources/techmanual-spring/spring-chapterseven-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9090909" vertical-offset="0" max-vertical-offset="231">
+        <state vertical-scroll-proportion="0.12096774" vertical-offset="0" max-vertical-offset="868">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
@@ -1683,39 +1516,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0" vertical-offset="0" max-vertical-offset="777">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.1" vertical-offset="0" max-vertical-offset="399">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/webapp/PAGE/JSP/hello.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3" vertical-offset="0" max-vertical-offset="315">
+        <state vertical-scroll-proportion="0.21774194" vertical-offset="0" max-vertical-offset="868">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/TimeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49578413" vertical-offset="21" max-vertical-offset="672">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.5390625" vertical-offset="39" max-vertical-offset="714">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="630">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/HelloSpeaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/IHello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterfour/base/LogInfoBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.266666" vertical-offset="4" max-vertical-offset="1323">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/java/com/techmanual/chapterseven/controller/LoggingInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="882">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-techmanual/src/main/webapp/WEB-INF/servlet-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40392157" vertical-offset="172" max-vertical-offset="861">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>

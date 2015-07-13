@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
          version="2.4">
-
+<!--========================HelloController.java的配置=============================================-->
     <display-name>techmanual</display-name>
     <session-config>
         <session-timeout>
@@ -28,4 +28,30 @@
         <servlet-name>dispatcherServlet</servlet-name>
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>
+
+<!--========================webApplicationContextDemo的配置=============================================-->
+<!--    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/servlet-mvc.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>
+            org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>time</servlet-name>
+        <servlet-class>com.techmanual.chapterseven.controller.TimeServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>time</servlet-name>
+        <url-pattern>/time.do</url-pattern>
+    </servlet-mapping>-->
 </web-app>

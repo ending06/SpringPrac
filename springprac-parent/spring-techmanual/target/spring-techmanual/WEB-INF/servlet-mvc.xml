@@ -8,7 +8,29 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <bean name="/hello.do" class="com.techmanual.chapterseven.controller.HelloController">
+<!--    <bean name="/hello.do" class="com.techmanual.chapterseven.controller.HelloController">
+        <property name="viewPage" value="hello"/>
+    </bean>-->
+
+    <!--============================TimeServlet配置==========================================-->
+    <bean id="dateBean" class="java.util.Date" scope="singleton"/>
+
+    <!--============================HandlerInterceptorAdapter================================-->
+    <bean id="loggingInceptor" class="com.techmanual.chapterseven.controller.LoggingInterceptor"/>
+    <bean id="urlHandlerMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <!--拦截-->
+        <property name="interceptors">
+            <list>
+                <ref bean="loggingInceptor"/>
+            </list>
+        </property>
+        <property name="mappings">
+            <props>
+                <prop key="/hello.do">helloController</prop>
+            </props>
+        </property>
+    </bean>
+    <bean name="helloController" class="com.techmanual.chapterseven.controller.HelloController">
         <property name="viewPage" value="hello"/>
     </bean>
 </beans>
