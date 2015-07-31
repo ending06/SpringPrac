@@ -23,6 +23,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="java-practice" />
         <module name="spring-enterprise" />
         <module name="spring-techmanual" />
         <module name="springEnterprise" />
