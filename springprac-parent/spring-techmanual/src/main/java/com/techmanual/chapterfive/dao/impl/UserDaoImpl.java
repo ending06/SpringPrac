@@ -21,7 +21,7 @@ public class UserDaoImpl extends LogInfoBase implements UserDao {
     private DataSource dataSource;
 
     public Integer insert(User user) throws Exception {
-        logger.info("aaa==>"+"conflict");
+        logger.info("aaa==>"+"conflict-master");
         Preconditions.checkNotNull(user, "user param is invalid!");
         String name = user.getName();
         int age = user.getAge().intValue();
