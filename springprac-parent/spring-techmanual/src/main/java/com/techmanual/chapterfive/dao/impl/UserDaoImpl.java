@@ -20,8 +20,8 @@ public class UserDaoImpl extends LogInfoBase implements UserDao {
 
     private DataSource dataSource;
 
-    @Override
     public Integer insert(User user) throws Exception {
+        logger.info("aaa==>"+"conflict");
         Preconditions.checkNotNull(user, "user param is invalid!");
         String name = user.getName();
         int age = user.getAge().intValue();
@@ -46,7 +46,6 @@ public class UserDaoImpl extends LogInfoBase implements UserDao {
         }
     }
 
-    @Override
     public User find(Integer id) throws Exception {
         Preconditions.checkNotNull(id, "query user info by id exception,id is invalid");
         Connection connection = null;
